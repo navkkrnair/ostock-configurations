@@ -3,7 +3,7 @@ spring:
     url: jdbc:h2:mem:licensedb
     driver-class-name: org.h2.Driver
     username: sa
-    password: sa
+    password: {cipher}2838334c2e5e27f75c8b99c79aed838c062f4601fda128faea99dbe95cd130eb
   jpa:
     hibernate:
       ddl-auto: create-drop
