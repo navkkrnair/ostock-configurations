@@ -25,7 +25,7 @@ management:
     enabled-by-default: true
     
 example:
-  property: I am the dev
+  property: I am the dev with default
 
 eureka:
   instance:
