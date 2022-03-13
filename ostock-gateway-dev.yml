@@ -21,6 +21,10 @@ management:
 spring:
   cloud:
     gateway:
+      discovery:
+          locator:
+            enabled: false
+            lower-case-service-id: true
       routes:
         - id: licensing-service
           uri: lb://licensing-service
