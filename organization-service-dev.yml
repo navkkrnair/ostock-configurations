@@ -32,3 +32,12 @@ eureka:
     fetch-registry: true
     service-url:
       default-zone: http://localhost:8761/eureka/
+keycloak:
+  realm: ostock-realm
+  auth-server-url: http://keycloak:8090/auth
+  ssl-required: external
+  resource: ostock
+  credentials:
+    secret: pVFMAhgJiocQdUpHYhBlb0KQ5JMWcDrB
+  use-resource-role-mappings: true
+  bearer-only: true      
