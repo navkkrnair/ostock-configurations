@@ -49,4 +49,14 @@ resilience4j:
         waitDurationInOpenState: 10s
         failureRateThreshold: 50
         recordExceptions:
-          - java.util.concurrent.TimeoutException     
+          - java.util.concurrent.TimeoutException
+          
+keycloak:
+  realm: ostock-realm
+  auth-server-url: http://keycloak:8090/auth
+  ssl-required: external
+  resource: ostock
+  credentials:
+    secret: 1tsXvzBvfgRXTiqXxwIL9vyWsuhJhb6u
+  use-resource-role-mappings: true
+  bearer-only: true          
