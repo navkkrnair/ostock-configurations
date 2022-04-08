@@ -30,15 +30,6 @@ management:
 example:
   property: I am the dev with default
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      default-zone: http://${EUREKA-SERVER:localhost:8761}/eureka/
-     
 resilience4j:
   circuitbreaker:
     instances:
