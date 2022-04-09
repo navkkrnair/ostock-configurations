@@ -31,7 +31,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      default-zone: http://${EUREKA_SERVER:localhost:8761}/eureka/
+      default-zone: http://localhost:8761/eureka/
 keycloak:
   realm: ostock-realm
   auth-server-url: http://keycloak:8090/auth
