@@ -38,6 +38,6 @@ keycloak:
   ssl-required: external
   resource: ostock
   credentials:
-    secret: 6idiw18EadlBnwpEBFW3ZB2UrCB4NZY1
+    secret: HoY1muF6jQbJxHZVMl4pOCaYvZxJMQ8F
   use-resource-role-mappings: true
   bearer-only: true      
