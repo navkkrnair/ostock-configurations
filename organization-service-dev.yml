@@ -40,5 +40,4 @@ keycloak:
   credentials:
     secret: FyxyZF0EHjEOvzuEqJIjnUeL8Zjgtrpc
   use-resource-role-mappings: true
-  cors: true
   bearer-only: true      
