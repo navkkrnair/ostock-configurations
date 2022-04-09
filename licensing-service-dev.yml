@@ -53,7 +53,7 @@ resilience4j:
           
 keycloak:
   realm: ostock-realm
-  auth-server-url: http://keycloak:8090/auth
+  auth-server-url: http://keycloak:8080/auth
   ssl-required: external
   resource: ostock
   credentials:
