@@ -17,6 +17,8 @@ spring:
           locator:
             enabled: false
             lower-case-service-id: true
+  zipkin:
+    base-url: zipkin:9411             
             
 eureka:
   instance:
