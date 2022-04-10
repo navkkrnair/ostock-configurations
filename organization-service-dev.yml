@@ -13,6 +13,8 @@ spring:
     show-sql: false
     properties:
       hibernate.dialect: org.hibernate.dialect.H2Dialect
+  zipkin:
+    base-url: zipkin:9411      
 
 management:
   endpoint:
@@ -41,5 +43,3 @@ keycloak:
     secret: LIO5yAVHbAbLLOZGGr1ygXO9QFtAQEa8
   use-resource-role-mappings: true
   bearer-only: true
-zipkin:
-  base-url: zipkin:9411  
