@@ -12,7 +12,13 @@ spring:
     database: h2
     show-sql: false
     properties:
-      hibernate.dialect: org.hibernate.dialect.H2Dialect 
+      hibernate.dialect: org.hibernate.dialect.H2Dialect
+  zipkin:
+    base-url: zipkin:9411
+  sleuth:
+    sampler:
+      rate: 1
+      percentage: 1    
       
 eureka:
   instance:
