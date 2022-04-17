@@ -17,7 +17,6 @@ spring:
     base-url: zipkin:9411
   sleuth:
     sampler:
-      rate: 1
       percentage: 1    
       
 eureka:
