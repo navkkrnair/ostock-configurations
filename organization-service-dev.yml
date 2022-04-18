@@ -14,7 +14,7 @@ spring:
     properties:
       hibernate.dialect: org.hibernate.dialect.H2Dialect   
   zipkin:
-    base-url: zipkin:9411
+    base-url: http://zipkin:9411
   sleuth:
     sampler:
       percentage: 1 
